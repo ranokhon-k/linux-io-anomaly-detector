@@ -1,0 +1,1308 @@
+[
+  {
+    "timestamp": "2026-05-24T21:10:13.852633",
+    "type": "LATENCY_ANOMALY",
+    "message": "Device loop1: latency 0.2ms exceeds threshold 0.2ms (mu=0.0, sigma=0.1)",
+    "details": {
+      "device": "loop1",
+      "latency_ms": 0.2,
+      "mu": 0.018,
+      "sigma": 0.057,
+      "threshold": 0.191,
+      "severity_sigma": 3.16,
+      "window_size": 11
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:17.929968",
+    "type": "IO_HOGGER",
+    "message": "Process bash (PID 1) consuming 100.0% of I/O bandwidth (0.03 MB/s)",
+    "details": {
+      "pid": 1,
+      "comm": "bash",
+      "read_bw_bytes": 36306.65447575323,
+      "write_bw_bytes": 0.0,
+      "total_bw_bytes": 36306.65447575323,
+      "syscr_rate": 10.833691385451539,
+      "syscw_rate": 5.909286210246294,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:21.055355",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (0.00 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 3729.6032640138524,
+      "write_bw_bytes": 0.0,
+      "total_bw_bytes": 3729.6032640138524,
+      "syscr_rate": 429.77850112659627,
+      "syscw_rate": 429.77850112659627,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:22.150460",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (0.25 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 3763.2246007238678,
+      "write_bw_bytes": 255899.272849223,
+      "total_bw_bytes": 259662.49744994685,
+      "syscr_rate": 1102.5072072433206,
+      "syscw_rate": 1098.8321832191762,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:20.699699",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.08 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4276224.0,
+      "total_bw_bytes": 4276224.0,
+      "syscr_rate": 1040.0,
+      "syscw_rate": 1044.0,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:21.731733",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.26 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4468683.364772094,
+      "total_bw_bytes": 4468683.364772094,
+      "syscr_rate": 1092.9388260777007,
+      "syscw_rate": 1090.987149602562,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:22.737922",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.12 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4323908.56158333,
+      "total_bw_bytes": 4323908.56158333,
+      "syscr_rate": 1057.6448539214443,
+      "syscw_rate": 1055.6417386678052,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:23.744696",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.02 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4210186.106705343,
+      "total_bw_bytes": 4210186.106705343,
+      "syscr_rate": 1023.8779442376807,
+      "syscw_rate": 1027.8774674573592,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:24.743877",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.17 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4376408.352379093,
+      "total_bw_bytes": 4376408.352379093,
+      "syscr_rate": 1070.4865069712853,
+      "syscw_rate": 1068.459070405052,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:25.763129",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.26 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4470069.701968371,
+      "total_bw_bytes": 4470069.701968371,
+      "syscr_rate": 1093.3062380750114,
+      "syscw_rate": 1091.3256108321218,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:26.779630",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.13 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4329620.506281042,
+      "total_bw_bytes": 4329620.506281042,
+      "syscr_rate": 1055.0530739464457,
+      "syscw_rate": 1057.03625641627,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:27.793258",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.21 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4410396.796064846,
+      "total_bw_bytes": 4410396.796064846,
+      "syscr_rate": 1074.7667215456659,
+      "syscw_rate": 1076.757030289269,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:28.802326",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.22 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4423820.277885665,
+      "total_bw_bytes": 4423820.277885665,
+      "syscr_rate": 1080.03424753068,
+      "syscw_rate": 1080.03424753068,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:29.807385",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (3.97 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4167472.0376681336,
+      "total_bw_bytes": 4167472.0376681336,
+      "syscr_rate": 1019.4560311572611,
+      "syscw_rate": 1017.4492279463217,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:30.834339",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.05 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4242647.013247298,
+      "total_bw_bytes": 4242647.013247298,
+      "syscr_rate": 1036.7842967799231,
+      "syscw_rate": 1035.8024934685786,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:31.860087",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.19 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4395429.655195185,
+      "total_bw_bytes": 4395429.655195185,
+      "syscr_rate": 1078.0209218208288,
+      "syscw_rate": 1073.102943162887,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:32.871605",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.28 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4486149.0909733735,
+      "total_bw_bytes": 4486149.0909733735,
+      "syscr_rate": 1092.261476099281,
+      "syscw_rate": 1095.2512429134213,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:33.915729",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.04 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4231079.577570299,
+      "total_bw_bytes": 4231079.577570299,
+      "syscr_rate": 1028.1468951284232,
+      "syscw_rate": 1032.9784124927487,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:34.951809",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (3.78 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 3962121.211935373,
+      "total_bw_bytes": 3962121.211935373,
+      "syscr_rate": 973.1536710338626,
+      "syscw_rate": 967.3147490076594,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:36.006191",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (3.36 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 3526598.001168699,
+      "total_bw_bytes": 3526598.001168699,
+      "syscr_rate": 857.15923639517,
+      "syscw_rate": 860.9858401290769,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:37.015294",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (3.86 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4042349.1710298983,
+      "total_bw_bytes": 4042349.1710298983,
+      "syscr_rate": 992.9071398162307,
+      "syscw_rate": 986.9016530834713,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:38.015473",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (3.94 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4132029.990396204,
+      "total_bw_bytes": 4132029.990396204,
+      "syscr_rate": 1000.7260132990807,
+      "syscw_rate": 1008.7963843740732,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:39.036097",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.23 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4437244.546431542,
+      "total_bw_bytes": 4437244.546431542,
+      "syscr_rate": 1083.3116568436383,
+      "syscw_rate": 1083.3116568436383,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:40.088517",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.17 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4371780.101414969,
+      "total_bw_bytes": 4371780.101414969,
+      "syscr_rate": 1067.329126322014,
+      "syscw_rate": 1067.329126322014,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:41.139039",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.44 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4659855.8523101965,
+      "total_bw_bytes": 4659855.8523101965,
+      "syscr_rate": 1137.660120192919,
+      "syscw_rate": 1137.660120192919,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:42.170041",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.84 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 5072155.166099107,
+      "total_bw_bytes": 5072155.166099107,
+      "syscr_rate": 1241.2466007464016,
+      "syscw_rate": 1238.3191323484148,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:43.173838",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.72 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4944753.298858113,
+      "total_bw_bytes": 4944753.298858113,
+      "syscr_rate": 1204.204649230954,
+      "syscw_rate": 1207.2151608540314,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:44.191377",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.77 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 5003747.053178468,
+      "total_bw_bytes": 5003747.053178468,
+      "syscr_rate": 1226.5637544956076,
+      "syscw_rate": 1221.6179329048994,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:45.240906",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.71 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4940769.312959278,
+      "total_bw_bytes": 4940769.312959278,
+      "syscr_rate": 1206.2425080466987,
+      "syscw_rate": 1206.2425080466987,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:46.292494",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.22 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4424254.161114611,
+      "total_bw_bytes": 4424254.161114611,
+      "syscr_rate": 1080.1401760533718,
+      "syscw_rate": 1080.1401760533718,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:47.328613",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.25 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4455477.156934962,
+      "total_bw_bytes": 4455477.156934962,
+      "syscr_rate": 1082.8938507406133,
+      "syscw_rate": 1087.7629777673246,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:48.369102",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.15 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4348598.019242799,
+      "total_bw_bytes": 4348598.019242799,
+      "syscr_rate": 1062.6389994225588,
+      "syscw_rate": 1061.669438291699,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:49.409749",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (4.35 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4559871.817938888,
+      "total_bw_bytes": 4559871.817938888,
+      "syscr_rate": 1117.1288752572407,
+      "syscw_rate": 1113.2499555514864,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:50.598791",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 144) consuming 100.0% of I/O bandwidth (3.51 MB/s)",
+    "details": {
+      "pid": 144,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 3683090.089439979,
+      "total_bw_bytes": 3683090.089439979,
+      "syscr_rate": 894.9544426802493,
+      "syscw_rate": 899.1919163671823,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:48.750744",
+    "type": "IO_HOGGER",
+    "message": "Process bash (PID 1) consuming 100.0% of I/O bandwidth (134.48 MB/s)",
+    "details": {
+      "pid": 1,
+      "comm": "bash",
+      "read_bw_bytes": 8192.0,
+      "write_bw_bytes": 141000704.0,
+      "total_bw_bytes": 141008896.0,
+      "syscr_rate": 34533.0,
+      "syscw_rate": 34627.0,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:54.809788",
+    "type": "LATENCY_ANOMALY",
+    "message": "Device sdc: latency 78.5ms exceeds threshold 33.6ms (mu=2.8, sigma=10.3)",
+    "details": {
+      "device": "sdc",
+      "latency_ms": 78.5,
+      "mu": 2.803,
+      "sigma": 10.264,
+      "threshold": 33.594,
+      "severity_sigma": 7.38,
+      "window_size": 56
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:54.821642",
+    "type": "LATENCY_ANOMALY",
+    "message": "Device sde: latency 90.5ms exceeds threshold 38.0ms (mu=2.0, sigma=12.0)",
+    "details": {
+      "device": "sde",
+      "latency_ms": 90.5,
+      "mu": 2.014,
+      "sigma": 11.984,
+      "threshold": 37.967,
+      "severity_sigma": 7.38,
+      "window_size": 56
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:58.840170",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.00 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4074.5842395873774,
+      "total_bw_bytes": 4074.5842395873774,
+      "syscr_rate": 0.0,
+      "syscw_rate": 0.9947715428680121,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:10:59.855925",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8142.3477031698285,
+      "total_bw_bytes": 8142.3477031698285,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1.9878778572191964,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:00.852978",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8421.551976395946,
+      "total_bw_bytes": 8421.551976395946,
+      "syscr_rate": 0.0,
+      "syscw_rate": 2.0560429629872914,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:01.862447",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8188.30049957116,
+      "total_bw_bytes": 8188.30049957116,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1.9990968016531152,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:02.859571",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.00 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4179.517528197969,
+      "total_bw_bytes": 4179.517528197969,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1.0203900215327073,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:03.868133",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8202.444941146532,
+      "total_bw_bytes": 8202.444941146532,
+      "syscr_rate": 0.0,
+      "syscw_rate": 2.0025500344596026,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:04.876688",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8211.095187774074,
+      "total_bw_bytes": 8211.095187774074,
+      "syscr_rate": 0.0,
+      "syscw_rate": 2.0046619110776547,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:05.889575",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8172.365532048594,
+      "total_bw_bytes": 8172.365532048594,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1.9952064287228013,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:06.886656",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8366.943010359406,
+      "total_bw_bytes": 8366.943010359406,
+      "syscr_rate": 0.0,
+      "syscw_rate": 2.042710695888527,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:07.904332",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8261.96554233989,
+      "total_bw_bytes": 8261.96554233989,
+      "syscr_rate": 78.66617581817766,
+      "syscw_rate": 2.017081431235325,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:08.887647",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (3.77 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 3954519.325528221,
+      "total_bw_bytes": 3954519.325528221,
+      "syscr_rate": 172.3292086792477,
+      "syscw_rate": 964.4206919459103,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:09.901101",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.08 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4276082.967869171,
+      "total_bw_bytes": 4276082.967869171,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1044.9645784406664,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:10.892346",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.22 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4423454.495736719,
+      "total_bw_bytes": 4423454.495736719,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1079.9449452482224,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:11.895263",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.03 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4229300.8055923125,
+      "total_bw_bytes": 4229300.8055923125,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1032.5441419903107,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:12.897352",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (3.54 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 3713995.785931638,
+      "total_bw_bytes": 3713995.785931638,
+      "syscr_rate": 0.0,
+      "syscw_rate": 906.7372524247163,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:13.912536",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.23 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4432598.247097731,
+      "total_bw_bytes": 4432598.247097731,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1082.1773064203444,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:14.914433",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (3.76 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 4135.600882107757,
+      "write_bw_bytes": 3941227.6406486924,
+      "total_bw_bytes": 3945363.2415308002,
+      "syscr_rate": 0.0,
+      "syscw_rate": 962.2137794552472,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:15.914322",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.27 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4482474.118259784,
+      "total_bw_bytes": 4482474.118259784,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1094.3540327782675,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:16.922558",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.25 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4453064.4599852,
+      "total_bw_bytes": 4453064.4599852,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1087.1739404260743,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:15.187757",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.19 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4395008.0,
+      "total_bw_bytes": 4395008.0,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1073.0,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:16.188289",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.31 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4518412.101412295,
+      "total_bw_bytes": 4518412.101412295,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1103.1279544463612,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:17.197837",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.34 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4547473.982526605,
+      "total_bw_bytes": 4547473.982526605,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1110.2231402652844,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:18.196070",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.46 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4672500.285885604,
+      "total_bw_bytes": 4672500.285885604,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1140.74714010879,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:19.200104",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.50 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 4125.250370506973,
+      "write_bw_bytes": 4719286.423859977,
+      "total_bw_bytes": 4723411.674230484,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1152.1695370751897,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:20.199407",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.31 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4519201.578930729,
+      "total_bw_bytes": 4519201.578930729,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1103.320697981135,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:21.201671",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.40 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4610467.228230792,
+      "total_bw_bytes": 4610467.228230792,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1125.6023506422832,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:22.204857",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.48 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4694047.997018965,
+      "total_bw_bytes": 4694047.997018965,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1146.0078117722082,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:23.207510",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.45 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4670961.060171437,
+      "total_bw_bytes": 4670961.060171437,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1140.3713525809173,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:24.208383",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.47 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4683752.989685647,
+      "total_bw_bytes": 4683752.989685647,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1143.4943822474725,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:25.208304",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.55 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4772614.762083998,
+      "total_bw_bytes": 4772614.762083998,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1165.1891508994136,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:26.216654",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (3.92 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4110088.330250744,
+      "total_bw_bytes": 4110088.330250744,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1003.439533752623,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:27.216832",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (3.92 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4105854.3910871916,
+      "total_bw_bytes": 4105854.3910871916,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1002.4058571990214,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:28.216535",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.17 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 4152.747126956344,
+      "write_bw_bytes": 4368689.9775580745,
+      "total_bw_bytes": 4372842.724685031,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1066.5747015522643,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:29.217826",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.25 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4457736.95370628,
+      "total_bw_bytes": 4457736.95370628,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1088.3146859634473,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:30.220686",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.04 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4241021.380039426,
+      "total_bw_bytes": 4241021.380039426,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1035.4056103611879,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:31.224869",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.15 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4349030.927850959,
+      "total_bw_bytes": 4349030.927850959,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1061.775128869863,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:32.232643",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (3.95 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4145852.12514074,
+      "total_bw_bytes": 4145852.12514074,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1012.1709289894385,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:33.228030",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (3.97 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4163636.291932031,
+      "total_bw_bytes": 4163636.291932031,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1016.5127665849685,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:34.224806",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.34 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4553719.257053436,
+      "total_bw_bytes": 4553719.257053436,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1111.7478654915615,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:35.226599",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.46 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4671452.240879501,
+      "total_bw_bytes": 4671452.240879501,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1140.491269745972,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:36.227977",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (4.36 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 4571225.770990456,
+      "total_bw_bytes": 4571225.770990456,
+      "syscr_rate": 0.0,
+      "syscw_rate": 1116.021916745717,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:37.236854",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (3.56 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 3730790.964270143,
+      "total_bw_bytes": 3730790.964270143,
+      "syscr_rate": 0.0,
+      "syscw_rate": 909.834512609546,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:38.246575",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (3.45 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 3613450.5790875005,
+      "total_bw_bytes": 3613450.5790875005,
+      "syscr_rate": 0.0,
+      "syscw_rate": 883.1937120032198,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:39.244848",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8342.542743838527,
+      "total_bw_bytes": 8342.542743838527,
+      "syscr_rate": 0.0,
+      "syscw_rate": 2.036753599569953,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  },
+  {
+    "timestamp": "2026-05-24T21:11:40.244526",
+    "type": "IO_HOGGER",
+    "message": "Process python3 (PID 146) consuming 100.0% of I/O bandwidth (0.01 MB/s)",
+    "details": {
+      "pid": 146,
+      "comm": "python3",
+      "read_bw_bytes": 0.0,
+      "write_bw_bytes": 8300.642668865372,
+      "total_bw_bytes": 8300.642668865372,
+      "syscr_rate": 0.0,
+      "syscw_rate": 2.02652408907846,
+      "bandwidth_ratio": 1.0,
+      "is_hogger": true
+    }
+  }
+]

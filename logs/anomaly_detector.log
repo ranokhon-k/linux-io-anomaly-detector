@@ -1,0 +1,119 @@
+2026-05-24 21:10:02,716 [INFO] io_anomaly_detector: ============================================================
+2026-05-24 21:10:02,716 [INFO] io_anomaly_detector: I/O Anomaly Detector starting
+2026-05-24 21:10:02,717 [INFO] io_anomaly_detector: Poll interval: 1.0s
+2026-05-24 21:10:02,717 [INFO] io_anomaly_detector: Devices: all
+2026-05-24 21:10:02,718 [INFO] io_anomaly_detector: ============================================================
+2026-05-24 21:10:13,856 [WARNING] io_anomaly_detector: [ANOMALY] loop1: latency=0.20ms (threshold=0.19ms, severity=3.2 sigma)
+2026-05-24 21:10:17,936 [WARNING] io_anomaly_detector: [HOGGER] bash (PID 1): 0.03 MB/s (100.0% of total)
+2026-05-24 21:10:21,061 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 0.00 MB/s (100.0% of total)
+2026-05-24 21:10:22,158 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 0.25 MB/s (100.0% of total)
+2026-05-24 21:10:20,706 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.08 MB/s (100.0% of total)
+2026-05-24 21:10:21,739 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.26 MB/s (100.0% of total)
+2026-05-24 21:10:22,743 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.12 MB/s (100.0% of total)
+2026-05-24 21:10:23,757 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.02 MB/s (100.0% of total)
+2026-05-24 21:10:24,752 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.17 MB/s (100.0% of total)
+2026-05-24 21:10:25,770 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.26 MB/s (100.0% of total)
+2026-05-24 21:10:26,788 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.13 MB/s (100.0% of total)
+2026-05-24 21:10:27,802 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.21 MB/s (100.0% of total)
+2026-05-24 21:10:28,810 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.22 MB/s (100.0% of total)
+2026-05-24 21:10:29,815 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 3.97 MB/s (100.0% of total)
+2026-05-24 21:10:30,842 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.05 MB/s (100.0% of total)
+2026-05-24 21:10:31,867 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.19 MB/s (100.0% of total)
+2026-05-24 21:10:32,880 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.28 MB/s (100.0% of total)
+2026-05-24 21:10:33,923 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.04 MB/s (100.0% of total)
+2026-05-24 21:10:34,960 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 3.78 MB/s (100.0% of total)
+2026-05-24 21:10:36,015 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 3.36 MB/s (100.0% of total)
+2026-05-24 21:10:37,023 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 3.86 MB/s (100.0% of total)
+2026-05-24 21:10:38,024 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 3.94 MB/s (100.0% of total)
+2026-05-24 21:10:39,046 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.23 MB/s (100.0% of total)
+2026-05-24 21:10:40,098 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.17 MB/s (100.0% of total)
+2026-05-24 21:10:41,144 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.44 MB/s (100.0% of total)
+2026-05-24 21:10:42,176 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.84 MB/s (100.0% of total)
+2026-05-24 21:10:43,180 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.72 MB/s (100.0% of total)
+2026-05-24 21:10:44,199 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.77 MB/s (100.0% of total)
+2026-05-24 21:10:45,247 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.71 MB/s (100.0% of total)
+2026-05-24 21:10:46,301 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.22 MB/s (100.0% of total)
+2026-05-24 21:10:47,337 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.25 MB/s (100.0% of total)
+2026-05-24 21:10:48,378 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.15 MB/s (100.0% of total)
+2026-05-24 21:10:49,418 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 4.35 MB/s (100.0% of total)
+2026-05-24 21:10:50,610 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 144): 3.51 MB/s (100.0% of total)
+2026-05-24 21:10:48,763 [WARNING] io_anomaly_detector: [HOGGER] bash (PID 1): 134.48 MB/s (100.0% of total)
+2026-05-24 21:10:54,819 [WARNING] io_anomaly_detector: [ANOMALY] sdc: latency=78.50ms (threshold=33.59ms, severity=7.4 sigma)
+2026-05-24 21:10:54,840 [WARNING] io_anomaly_detector: [ANOMALY] sde: latency=90.50ms (threshold=37.97ms, severity=7.4 sigma)
+2026-05-24 21:10:57,834 [INFO] io_anomaly_detector: --- Status (cycle 60) ---
+2026-05-24 21:10:57,836 [INFO] io_anomaly_detector:   ram0: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,837 [INFO] io_anomaly_detector:   ram1: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,838 [INFO] io_anomaly_detector:   ram2: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,839 [INFO] io_anomaly_detector:   ram3: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,839 [INFO] io_anomaly_detector:   ram4: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,840 [INFO] io_anomaly_detector:   ram5: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,841 [INFO] io_anomaly_detector:   ram6: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,842 [INFO] io_anomaly_detector:   ram7: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,843 [INFO] io_anomaly_detector:   ram8: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,844 [INFO] io_anomaly_detector:   ram9: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,846 [INFO] io_anomaly_detector:   ram10: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,847 [INFO] io_anomaly_detector:   ram11: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,848 [INFO] io_anomaly_detector:   ram12: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,849 [INFO] io_anomaly_detector:   ram13: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,850 [INFO] io_anomaly_detector:   ram14: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,852 [INFO] io_anomaly_detector:   ram15: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,854 [INFO] io_anomaly_detector:   loop0: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,855 [INFO] io_anomaly_detector:   loop1: mu=0.00ms, sigma=0.03ms, threshold=0.08ms, IOPS=0
+2026-05-24 21:10:57,857 [INFO] io_anomaly_detector:   loop2: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,858 [INFO] io_anomaly_detector:   loop3: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,860 [INFO] io_anomaly_detector:   loop4: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,861 [INFO] io_anomaly_detector:   loop5: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,862 [INFO] io_anomaly_detector:   loop6: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,864 [INFO] io_anomaly_detector:   loop7: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,865 [INFO] io_anomaly_detector:   sda: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,866 [INFO] io_anomaly_detector:   sdb: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,870 [INFO] io_anomaly_detector:   sdc: mu=2.80ms, sigma=10.04ms, threshold=32.92ms, IOPS=2
+2026-05-24 21:10:57,872 [INFO] io_anomaly_detector:   sdd: mu=0.00ms, sigma=0.00ms, threshold=0.00ms, IOPS=0
+2026-05-24 21:10:57,873 [INFO] io_anomaly_detector:   sde: mu=1.91ms, sigma=11.68ms, threshold=36.96ms, IOPS=0
+2026-05-24 21:10:58,848 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.00 MB/s (100.0% of total)
+2026-05-24 21:10:59,879 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:00,861 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:01,879 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:02,869 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.00 MB/s (100.0% of total)
+2026-05-24 21:11:03,878 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:04,886 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:05,907 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:06,898 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:07,924 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:08,899 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 3.77 MB/s (100.0% of total)
+2026-05-24 21:11:09,922 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.08 MB/s (100.0% of total)
+2026-05-24 21:11:10,901 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.22 MB/s (100.0% of total)
+2026-05-24 21:11:11,906 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.03 MB/s (100.0% of total)
+2026-05-24 21:11:12,908 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 3.54 MB/s (100.0% of total)
+2026-05-24 21:11:13,923 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.23 MB/s (100.0% of total)
+2026-05-24 21:11:14,925 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 3.76 MB/s (100.0% of total)
+2026-05-24 21:11:15,926 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.27 MB/s (100.0% of total)
+2026-05-24 21:11:16,933 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.25 MB/s (100.0% of total)
+2026-05-24 21:11:15,199 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.19 MB/s (100.0% of total)
+2026-05-24 21:11:16,197 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.31 MB/s (100.0% of total)
+2026-05-24 21:11:17,219 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.34 MB/s (100.0% of total)
+2026-05-24 21:11:18,206 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.46 MB/s (100.0% of total)
+2026-05-24 21:11:19,211 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.50 MB/s (100.0% of total)
+2026-05-24 21:11:20,209 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.31 MB/s (100.0% of total)
+2026-05-24 21:11:21,211 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.40 MB/s (100.0% of total)
+2026-05-24 21:11:22,216 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.48 MB/s (100.0% of total)
+2026-05-24 21:11:23,219 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.45 MB/s (100.0% of total)
+2026-05-24 21:11:24,218 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.47 MB/s (100.0% of total)
+2026-05-24 21:11:25,219 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.55 MB/s (100.0% of total)
+2026-05-24 21:11:26,232 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 3.92 MB/s (100.0% of total)
+2026-05-24 21:11:27,229 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 3.92 MB/s (100.0% of total)
+2026-05-24 21:11:28,230 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.17 MB/s (100.0% of total)
+2026-05-24 21:11:29,229 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.25 MB/s (100.0% of total)
+2026-05-24 21:11:30,235 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.04 MB/s (100.0% of total)
+2026-05-24 21:11:31,241 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.15 MB/s (100.0% of total)
+2026-05-24 21:11:32,252 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 3.95 MB/s (100.0% of total)
+2026-05-24 21:11:33,242 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 3.97 MB/s (100.0% of total)
+2026-05-24 21:11:34,235 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.34 MB/s (100.0% of total)
+2026-05-24 21:11:35,236 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.46 MB/s (100.0% of total)
+2026-05-24 21:11:36,239 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 4.36 MB/s (100.0% of total)
+2026-05-24 21:11:37,249 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 3.56 MB/s (100.0% of total)
+2026-05-24 21:11:38,262 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 3.45 MB/s (100.0% of total)
+2026-05-24 21:11:39,257 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:40,254 [WARNING] io_anomaly_detector: [HOGGER] python3 (PID 146): 0.01 MB/s (100.0% of total)
+2026-05-24 21:11:40,696 [INFO] io_anomaly_detector: Got signal 15, shutting down...
+2026-05-24 21:11:41,274 [INFO] io_anomaly_detector: Stopped after 105 cycles.
