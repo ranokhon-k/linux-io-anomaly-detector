@@ -1,0 +1,10 @@
+services:
+  io-monitor:
+    build: .
+    container_name: io_anomaly_detector
+    privileged: true
+    volumes:
+      # mount logs folder so results persist on the host
+      - ./logs:/app/logs
+    # privileged gives us full /proc and /sys access
+    # which we need for diskstats, schedstat, and process io

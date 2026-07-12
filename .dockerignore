@@ -1,0 +1,7 @@
+logs/
+report/
+.git/
+*.md
+run.bat
+.gitignore
+.dockerignore

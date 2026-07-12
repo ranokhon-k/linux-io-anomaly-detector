@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# LaTeX source and Mermaid source stay local
+report/main.tex
+report/diagrams/*.md
